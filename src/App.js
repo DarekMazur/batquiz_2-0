@@ -1,5 +1,10 @@
 import React from 'react';
+import GlobalStyle from 'theme/GlobalStyle';
 
-const App = () => <div>Hello world</div>;
+const App = () => (
+  <GlobalStyle>
+    <div>Hello world</div>;
+  </GlobalStyle>
+);
 
 export default App;
